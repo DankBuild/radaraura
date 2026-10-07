@@ -54,6 +54,10 @@ nearest the USB-C ports:
 | 3 | SDA (GPIO7) | 23 |
 | 4 | SCL (GPIO8) | 25 |
 
+Ignore the wire colours: these clip-in cables are not colour-coded consistently,
+so red is not always 3.3 V and black is not always GND. Count by position from
+wire 1.
+
 Slide heat-shrink onto each wire before soldering, then shrink it over the joint:
 no bare metal may touch a neighbouring pin (23 and 25 sit side by side, and the
 5 V pins are next to pin 1).
