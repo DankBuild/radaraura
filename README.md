@@ -38,6 +38,11 @@ screws (the case plugs tightly together and holds without them) and a second
 filament colour for the name and radar mark. No resistors or other extra parts
 are needed.
 
+**Skill:** basic soldering. The four wires are soldered to the header pins. Female
+jumper wires pushed onto the pins can work for a quick test, but they can slip or
+lose contact when the case is closed ("Sensor offline"), and one slipping onto the
+5 V pin next to pin 1 can damage the SEN66. Solder them for a device you keep.
+
 **Wiring:** only 4 of the SEN66's 6 wires are needed (pins 5 and 6 repeat GND
 and 3.3 V inside the sensor). They go to the board's 2x13 header, on the row
 nearest the USB-C ports:
