@@ -1,0 +1,13 @@
+# ESP-IDF
+firmware/build*/
+firmware/managed_components/
+firmware/dependencies.lock
+firmware/sdkconfig.old
+
+# Generated voice files + API token for tools/generate_tts.py
+tools/tts_output/
+.env
+
+# Python
+.venv/
+__pycache__/

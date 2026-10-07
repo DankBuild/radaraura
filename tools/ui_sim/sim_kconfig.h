@@ -1,0 +1,9 @@
+/* Host build: reuse the firmware's LVGL Kconfig, minus ESP-only bits. */
+#include SIM_SDKCONFIG
+#undef CONFIG_LV_ATTRIBUTE_FAST_MEM_USE_IRAM
+#undef CONFIG_LV_BUILD_EXAMPLES
+#undef CONFIG_LV_USE_DEMO_WIDGETS
+#undef CONFIG_LV_USE_DEMO_BENCHMARK
+#undef CONFIG_LV_USE_DEMO_STRESS
+#undef CONFIG_LV_USE_DEMO_MUSIC
+#define CONFIG_LV_CONF_SKIP 1
