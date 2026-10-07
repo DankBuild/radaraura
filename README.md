@@ -54,6 +54,10 @@ nearest the USB-C ports:
 | 3 | SDA (GPIO7) | 23 |
 | 4 | SCL (GPIO8) | 25 |
 
+Slide heat-shrink onto each wire before soldering, then shrink it over the joint:
+no bare metal may touch a neighbouring pin (23 and 25 sit side by side, and the
+5 V pins are next to pin 1).
+
 The first two pins of the other row carry **5 V**: don't use them. I2C address
 0x6B; the board already has the pull-ups. Pictures: <https://radaraura.com/build/#wiring>.
 
