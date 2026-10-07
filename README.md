@@ -23,14 +23,20 @@ and NOx indices, temperature and humidity, with a one-hour CO2 trend and a plain
 radio chip is held in reset from the first instruction and no radio stack is
 compiled in; the microphone is never switched on. Everything stays on the device.
 
-## Parts
+## What you need
 
-| Part | Notes |
-|---|---|
-| Guition JC4880P443C_I_W | ESP32-P4 board with 4.3" 480x800 touch screen (ST7701) |
-| Sensirion SEN66 | PM, RH/T, VOC, NOx, CO2 in one module, with its 6-pin cable (1.25 mm, JST GH type) |
-| Printed case | See [`case/`](case/README.md): one-colour or two-colour |
-| 4x M2 pan-head screws (optional) | The case plugs tightly together and holds without them; screws into the board's standoffs make it extra secure |
+| # | Get this | Notes |
+|---|---|---|
+| 1 | **Guition JC4880P443C-I-W**, the bare board | ESP32-P4 with a 4.3" 480x800 touch screen (ST7701). Buy the version **without** the factory case (the one in its own plastic shell is usually listed with a "-Y" at the end); the RadarAura case is made for the bare board |
+| 2 | **Sensirion SEN66** | PM, RH/T, VOC, NOx and CO2 in one module. Not the SEN63C, SEN65 or SEN68 |
+| 3 | **SEN66 cable**: 6-pin, 1.25 mm pitch, JST GH type | Often sold separately, so check your order includes it. Wire colours don't matter |
+| 4 | **A 3D printer, or someone to print for you** | Three parts in PETG, see [`case/`](case/README.md): one-colour or two-colour. A friend, makerspace, library or print service can print the STLs |
+
+Tools: a soldering iron, heat-shrink, a USB-C cable with a USB power supply, and a
+computer with ESP-IDF 5.3 to flash the firmware once. Optional: 4x M2 pan-head
+screws (the case plugs tightly together and holds without them) and a second
+filament colour for the name and radar mark. No resistors or other extra parts
+are needed.
 
 **Wiring:** only 4 of the SEN66's 6 wires are needed (pins 5 and 6 repeat GND
 and 3.3 V inside the sensor). They go to the board's 2x13 header, on the row
