@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2026 DankBuild - RadarAura. RadarAura Build Licence 1.0 - see LICENSE.md
+# Copyright (c) 2026 DankBuild - RadarAura. PolyForm Noncommercial 1.0.0 - see LICENSE.md
 """
 Generate TTS alert audio files using Replicate's minimax/speech-02-hd model.
 

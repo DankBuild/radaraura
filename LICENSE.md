@@ -1,78 +1,45 @@
-# RadarAura Build Licence 1.0
+# Licence
 
-Copyright (c) 2026 DankBuild (https://github.com/DankBuild/radaraura)
+Copyright (c) 2026 DankBuild. RadarAura is free to build for yourself, but not to sell.
 
-This licence covers everything in this repository: the firmware, the tools, the
-case design and the images. It does not cover `firmware/components/`, which is
-Espressif's code under Apache-2.0 (see the `LICENSE` file in each component), or
-the third-party libraries the firmware downloads when it is built, which keep
-their own licences.
+| Part | Licence |
+|---|---|
+| Firmware and tools (`firmware/` except `firmware/components/`, `tools/`) | [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.md) |
+| Case design (`case/`) and images (`docs/`) | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) |
+| Espressif components (`firmware/components/`) | Apache-2.0, see the `LICENSE` file in each component |
 
-In short: **build it for yourself and change it as you like, keep the RadarAura
-name on it, and don't sell it without permission.**
+Required Notice: Copyright (c) 2026 DankBuild (https://github.com/DankBuild/radaraura)
 
-## 1. What you may do
+## In plain words
 
-Free of charge and for non-commercial purposes, you may:
+- **You may** build RadarAura for yourself, your family, a school or a non-profit,
+  change it, and share your changes.
+- **When you share** the design or code (modified or not), keep this notice and
+  credit RadarAura by DankBuild with a link to https://radaraura.com. Shared case
+  modifications must use the same CC BY-NC-SA 4.0 licence.
+- **You may not** sell RadarAura, kits, cases or anything made from these files,
+  or use them in a business, without written permission. Renaming it does not
+  change this.
+- **The name on your own build is your choice.** The case files carry the
+  RadarAura name and you are welcome to keep it, but nothing requires it.
+- **The name** "RadarAura" is covered separately, see [TRADEMARK.md](TRADEMARK.md).
 
-- build RadarAura devices for yourself, your family, a school, a library or a
-  non-profit organisation;
-- change the firmware, the tools and the case design;
-- share these files, changed or unchanged, under the conditions in section 3.
+The licence texts above are the binding terms; this summary is only a guide.
 
-"Non-commercial" means not intended for, or directed towards, commercial
-advantage or payment.
+## No warranty
 
-## 2. The name must stay on every build
+These files are provided as they are, without any warranty. The smoke warning is
+a convenience and **not a certified smoke detector**: use a real smoke alarm for
+safety.
 
-Every device built from these files, changed or unchanged, and also a device
-built only for your own use, must show the RadarAura name:
+## Selling or commercial use
 
-- **on the case:** the name on the front and the radar mark with the name on
-  the back, as in the provided design. Printing them in one colour or two is
-  your choice; removing, covering, sanding off or making them unreadable is not.
-- **on the screen:** the RadarAura title that the firmware shows.
+Want to sell RadarAura units, kits or cases? That is possible with a commercial
+licence. Open an issue on this repository or contact DankBuild via GitHub.
 
-If you change the case or the firmware, keep the name in an equally visible
-place.
+## Earlier terms
 
-## 3. When you share
-
-When you share these files, or files made from them:
-
-- include this licence and the copyright notice above;
-- if you changed anything, say so clearly: call it "RadarAura, modified by
-  \<your name\>" and describe what you changed. Do not present a modified
-  version as the original or as made or approved by DankBuild;
-- share it under this same licence and without charge.
-
-## 4. Not allowed without written permission from DankBuild
-
-- selling RadarAura devices, kits, cases, printed parts or these files, or
-  charging for building, printing or assembling them;
-- using them in a business or for commercial purposes;
-- any use that removes or hides the RadarAura name, under any other name.
-
-Want to sell RadarAura units, kits or cases? A commercial licence is possible:
-open an issue on this repository or contact DankBuild via GitHub.
-
-## 5. No warranty
-
-These files are provided as they are, without any warranty. DankBuild is not
-liable for any damage or loss from building or using a RadarAura device, to
-the extent the law allows. The smoke alarm is a convenience and **not a
-certified smoke detector**: use a real smoke alarm for safety.
-
-## 6. If the licence is broken
-
-If you break this licence, your permission under it ends. If you put it right
-within 30 days of being told, your permission is restored. This applies once.
-
-## 7. Every version
-
-DankBuild offers every version of these files, including earlier versions in
-this repository's history, only under this licence.
-
-## 8. Law
-
-This licence is governed by Danish law.
+Between 2026-10-07 and 2026-11-15 these files were offered under the RadarAura
+Build Licence 1.0, which required the name on every build. That requirement is
+withdrawn: anyone who received the files under it may use them under the terms
+above instead.

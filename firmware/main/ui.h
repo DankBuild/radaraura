@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2026 DankBuild - RadarAura (https://github.com/DankBuild/radaraura)
- * Licensed under the RadarAura Build Licence 1.0 - see LICENSE.md
+ * Licensed under PolyForm Noncommercial 1.0.0 - see LICENSE.md
  *
  * Dashboard UI (pure LVGL 8 - no ESP-IDF dependencies, so it can also be
  * rendered on a PC by tools/ui_sim for screenshots).

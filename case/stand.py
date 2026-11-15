@@ -1,4 +1,4 @@
-# Copyright (c) 2026 DankBuild - RadarAura. RadarAura Build Licence 1.0 - see LICENSE.md
+# Copyright (c) 2026 DankBuild - RadarAura. CC BY-NC-SA 4.0 - see LICENSE.md
 """Tilted desk stand for the RadarAura case (atmo4.py). The case drops in from above.
 
 Holds the case by its sides, a 3 mm lip front and back (below the vents, which start

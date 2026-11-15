@@ -1,4 +1,4 @@
-# Copyright (c) 2026 DankBuild - RadarAura. RadarAura Build Licence 1.0 - see LICENSE.md
+# Copyright (c) 2026 DankBuild - RadarAura. CC BY-NC-SA 4.0 - see LICENSE.md
 """Small mesh helpers (trimesh + manifold3d) used by atmo4.py."""
 import trimesh
 

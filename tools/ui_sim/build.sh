@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 DankBuild - RadarAura. RadarAura Build Licence 1.0 - see LICENSE.md
+# Copyright (c) 2026 DankBuild - RadarAura. PolyForm Noncommercial 1.0.0 - see LICENSE.md
 # Build + run the host renderer, write PNGs into ./out.
 # Needs a firmware build first (for managed_components/lvgl__lvgl and sdkconfig.h).
 set -euo pipefail

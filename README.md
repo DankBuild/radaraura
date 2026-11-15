@@ -94,9 +94,9 @@ See [`case/README.md`](case/README.md).
 
 ## Licence
 
-Free to build and change for yourself, with the RadarAura name kept on the case
-and the screen; selling requires permission. Everything is under the
-[RadarAura Build Licence](LICENSE.md); the name rules are summed up in
-[TRADEMARK.md](TRADEMARK.md).
+Free to build and change for yourself; selling requires permission. Firmware and
+tools: PolyForm Noncommercial 1.0.0. Case and images: CC BY-NC-SA 4.0. If you
+share it or a version of it, credit RadarAura by DankBuild and link back. The
+name: see [TRADEMARK.md](TRADEMARK.md). Details in [LICENSE.md](LICENSE.md).
 
 Copyright (c) 2026 DankBuild.

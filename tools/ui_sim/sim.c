@@ -1,4 +1,4 @@
-/* Copyright (c) 2026 DankBuild - RadarAura. RadarAura Build Licence 1.0 - see LICENSE.md */
+/* Copyright (c) 2026 DankBuild - RadarAura. PolyForm Noncommercial 1.0.0 - see LICENSE.md */
 /* Render the dashboard (main/ui.c) on a PC into PNG screenshots. */
 #include <stdio.h>
 #include <stdlib.h>

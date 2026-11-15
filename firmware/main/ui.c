@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2026 DankBuild - RadarAura (https://github.com/DankBuild/radaraura)
- * Licensed under the RadarAura Build Licence 1.0 - see LICENSE.md
+ * Licensed under PolyForm Noncommercial 1.0.0 - see LICENSE.md
  *
  * Dashboard UI - 480x800 portrait.
  *

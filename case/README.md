@@ -6,8 +6,9 @@ chamber below the screen with its air ports against the front openings.
 
 ## Choose how to print
 
-The RadarAura name on the front and the radar mark on the back are part of the
-case in both options (see [TRADEMARK.md](../TRADEMARK.md)).
+The provided case has the RadarAura name on the front and the radar mark on the
+back in both options. You are welcome to keep them; it is not required (see
+[TRADEMARK.md](../TRADEMARK.md)).
 
 ### Option A: one colour (any printer)
 

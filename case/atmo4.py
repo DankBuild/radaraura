@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2026 DankBuild - RadarAura (https://github.com/DankBuild/radaraura)
-# Licensed under the RadarAura Build Licence 1.0 - see LICENSE.md
+# Licensed under CC BY-NC-SA 4.0 - see LICENSE.md
 """
 RadarAura case generator: front body, rear cover, USB-C insert and the name inlay.
 
